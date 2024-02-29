@@ -33,7 +33,7 @@ class catalogo : AppCompatActivity() {
         gridSeries.adapter = seriesAdapter
     }
 
-    fun cargarPeliculas() {
+    private fun cargarPeliculas() {
         peliculas.add(Pelicula(
             "Demon Slayer: Kimetsu no Yaiba -To the Hashira Training",
             R.drawable.demon, R.drawable.demo,
@@ -44,7 +44,7 @@ class catalogo : AppCompatActivity() {
             "\"Duna: Parte Dos\" explorará el viaje mítico de Paul Atreides mientras se une con Chani y los Fremen mientras está en un camino de venganza contra los conspiradores que destruyeron a su familia. Enfrentando una elección entre el amor de su vida y el destino del universo conocido, se esfuerza por evitar un futuro terrible que solo él pueda prever."))
         peliculas.add(Pelicula(
             "Ghostbusters Apocalipsis",
-            R.drawable.ghostbusters, R.drawable.ghostbusters,
+            R.drawable.ant2, R.drawable.ghostbusters,
             "En Ghostbusters Apocalipsis Fantasma, regresa la familia Spengler a donde todo empezó – la icónica estación de bomberos en Nueva York – donde hace equipo junto con los Ghostbusters originales que han desarrollado un laboratorio de investigación ultrasecreto para llevar la cacería de fantasmas al siguiente nivel. Pero cuando el descubrimiento de un artefacto antiguo libera una fuerza maligna, los nuevos y viejos Ghostbusters unen sus fuerzas para proteger su hogar y salvar al mundo de una segunda era de hielo."))
         peliculas.add(Pelicula(
             "Héroe Por Encargo",
@@ -60,6 +60,30 @@ class catalogo : AppCompatActivity() {
             R.drawable.vidaspasadas, R.drawable.vidaspasadas1,
                 "Nora y Hae Sung, dos amigos de la infancia profundamente unidos, son separados después de que la familia de Nora emigrara de Corea del Sur. Veinte años después, se reúnen durante una fatídica semana para enfrentarse al amor y al destino.")
         )
+        series.add(Pelicula(
+            "Avatar: La leyenda de Aang",
+            R.drawable.ant, R.drawable.ghost2,
+            "La leyenda de Aang sigue al último sobreviviente de los Nómadas del Aire, quien deberá restaurar el equilibrio en el mundo entre las tres naciones restantes: la Tribu del Agua, el Reino Tierra y la Nación del Fuego."))
+        series.add(Pelicula(
+            "Halo",
+            R.drawable.halo, R.drawable.halos,
+            "Una evacuación mortal cambia la guerra del Jefe Maestro con el Covenant. En Reach, un nuevo régimen toma el mando en FLEETCOM. John siente una amenaza inminente cerca. Estreno de temporada."))
+        series.add(Pelicula(
+            "Solo Leveling",
+            R.drawable.sololeveling, R.drawable.sololevelings,
+            "En un mundo en el que ciertos humanos llamados “cazadores” poseen habilidades mágicas, estos deben luchar contra monstruos para proteger a la raza humana de una aniquilación segura. Un cazador muy débil llamado Sung Jinwoo se encuentra en una lucha en la que solo puede tratar de sobrevivir."))
+        series.add(Pelicula(
+            "Mi adorable demonio",
+            R.drawable.adorabledemonio, R.drawable.adorabledemonios,
+            "Se centra en la vida de Jung Koo Won, un temerario demonio que pierde sus poderes tras conocer a Do Do-Hee, una exitosa empresaria con la que deberá de colaborar para recuperarlos."))
+        series.add(Pelicula(
+            "El Monstruo de la Vieja Seúl",
+            R.drawable.elmonstruo, R.drawable.elmonstruovieja,
+            "Gyeongseong, 1945. En la oscura era colonial de Seúl, un empresario y una investigadora luchan por sobrevivir y se enfrentan a un monstruo nacido de la avaricia humana."))
+        series.add(Pelicula(
+            "The Witcher",
+            R.drawable.thewitcher, R.drawable.thewitchers,
+            "Geralt de Rivia, un cazador de monstruos mutante, viaja en pos de su destino por un mundo turbulento en el que, a menudo, los humanos son peores que las bestias."))
     }
 
     class PeliculaAdapter: BaseAdapter {
